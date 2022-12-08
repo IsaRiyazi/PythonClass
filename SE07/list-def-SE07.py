@@ -1,4 +1,4 @@
-list1 = [1, 1, 4, 5]
+
 
 def list_def(list1):
     if list1:
@@ -13,7 +13,6 @@ def list_def(list1):
         print("trueeee")
 
 
-num = int(input("enter your number: "))
 def even_odd(num):
 
     if num % 2 == 0:
@@ -22,4 +21,7 @@ def even_odd(num):
         print("Odd")
 
 
-even_odd(num)
+if __name__ == '__main__':
+    list1 = [1, 1, 4, 5]
+    num = int(input("enter your number: "))
+    even_odd(num)
